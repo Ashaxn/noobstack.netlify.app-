@@ -29,10 +29,10 @@ class Navbar extends Component {
                 <Link to="/">Home</Link>
               </li>
               <li>
-                <a href="badges.html">Search</a>
+                <Link to="/">Search</Link>
               </li>
               <li>
-                <a href="collapsible.html">Products</a>
+                <Link to="/">Products</Link>
               </li>
               <li>
                 <Link to="/signup">Singup</Link>
@@ -49,10 +49,10 @@ class Navbar extends Component {
             <Link to="/">Home</Link>
           </li>
           <li className="sidenav-close">
-            <a href="badges.html">Search</a>
+            <Link to="/">Search</Link>
           </li>
           <li className="sidenav-close">
-            <a href="collapsible.html">Products</a>
+            <Link to="/">Products</Link>
           </li>
 
           <li className="sidenav-close">
