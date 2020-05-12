@@ -8,22 +8,25 @@ import SocialMedia from "./components/SocialMedia";
 import PhotoGallery from "./components/PhotoGallery";
 import IndexAbout from "./components/IndexAbout";
 // eslint-disable-next-line
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Slider />
-      <Search />
-      <CategoryContainer />
-      <StaticCards />
-      <SocialMedia />
-      <PhotoGallery />
-      <IndexAbout />
-    </div>
+    <Router>
+      <div className="App">
+        <Navbar />
+
+        <Route path="/" exact component={Slider} />
+        <Route path="/" exact component={Search} />
+        <Route path="/" exact component={CategoryContainer} />
+        <Route path="/" exact component={StaticCards} />
+        <Route path="/" exact component={SocialMedia} />
+        <Route path="/" exact component={PhotoGallery} />
+        <Route path="/" exact component={IndexAbout} />
+      </div>
+    </Router>
   );
 }
 

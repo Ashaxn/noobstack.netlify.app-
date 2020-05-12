@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import M from "materialize-css";
 import "materialize-css/dist/css/materialize.min.css";
+// eslint-disable-next-line
+import { Link } from "react-router-dom";
 
 class Navbar extends Component {
   state = {};

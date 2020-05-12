@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Category from "./Category";
-import "../App.css";
 import "materialize-css/dist/css/materialize.min.css";
 
 class CategoryContainer extends Component {
@@ -24,7 +23,7 @@ class CategoryContainer extends Component {
             <Category
               cardInfo={{
                 image:
-                  "https://raw.githubusercontent.com/Shihara-Dilshan/img/master/background-business-computer-connection-303383.jpg",
+                  "https://raw.githubusercontent.com/Shihara-Dilshan/img/master/semi-opened-laptop-computer-turned-on-on-table-2047905.jpg",
                 title: "Laptops",
                 Descripion: "Most powerfull laptops for your needs",
               }}
@@ -40,7 +39,7 @@ class CategoryContainer extends Component {
             <Category
               cardInfo={{
                 image:
-                  "https://raw.githubusercontent.com/Shihara-Dilshan/img/master/samsung-samsung-galaxy-s6-edge-plus-edge-plus-s6-edge-47261.jpg",
+                  "https://raw.githubusercontent.com/Shihara-Dilshan/img/master/photo-of-nike-shoes-1598505.jpg",
                 title: "Mobile Phones",
                 Descripion: "Samsung , Apple , Huwaei",
               }}
