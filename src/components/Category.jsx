@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import M from "materialize-css";
 import "materialize-css/dist/css/materialize.min.css";
 
 class Category extends Component {
@@ -19,7 +18,7 @@ class Category extends Component {
             <p>Test Description</p>
           </div>
           <div className="card-action">
-            <a href="#" className="btn">
+            <a href="/" className="btn">
               Explore
             </a>
           </div>

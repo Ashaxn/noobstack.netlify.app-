@@ -7,7 +7,7 @@ class Slider extends Component {
   render() {
     document.addEventListener("DOMContentLoaded", function () {
       var elems = document.querySelectorAll(".slider");
-      var instances = M.Slider.init(elems, {
+      M.Slider.init(elems, {
         indicators: false,
         height: 400,
         transition: 500,

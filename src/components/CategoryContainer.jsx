@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Category from "./Category";
 import "../App.css";
-import M from "materialize-css";
 import "materialize-css/dist/css/materialize.min.css";
 
 class CategoryContainer extends Component {

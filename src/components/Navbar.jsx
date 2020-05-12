@@ -42,16 +42,19 @@ class Navbar extends Component {
 
         <ul className="sidenav" id="mobile-demo">
           <li>
-            <a href="sass.html">Sass</a>
+            <a href="sass.html">Home</a>
           </li>
           <li>
-            <a href="badges.html">Components</a>
+            <a href="badges.html">Search</a>
           </li>
           <li>
-            <a href="collapsible.html">Javascript</a>
+            <a href="collapsible.html">Products</a>
           </li>
           <li>
-            <a href="mobile.html">Mobile</a>
+            <a href="mobile.html">Signup</a>
+          </li>
+          <li>
+            <a href="mobile.html">Login</a>
           </li>
         </ul>
       </React.Fragment>
