@@ -7,7 +7,7 @@ class Category extends Component {
   render() {
     return (
       <div className="col s12 m4">
-        <div className="card">
+        <div className="card medium">
           <div className="card-image">
             <img src={this.props.cardInfo.image} alt="" />
             <span className="card-title">{this.props.cardInfo.title}</span>

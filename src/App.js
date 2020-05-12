@@ -7,6 +7,8 @@ import StaticCards from "./components/StaticCards";
 import SocialMedia from "./components/SocialMedia";
 import PhotoGallery from "./components/PhotoGallery";
 import IndexAbout from "./components/IndexAbout";
+import SignUp from "./components/SignUp";
+import Login from "./components/Login";
 // eslint-disable-next-line
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -25,6 +27,8 @@ function App() {
         <Route path="/" exact component={SocialMedia} />
         <Route path="/" exact component={PhotoGallery} />
         <Route path="/" exact component={IndexAbout} />
+        <Route path="/signup" exact component={SignUp} />
+        <Route path="/login" exact component={Login} />
       </div>
     </Router>
   );

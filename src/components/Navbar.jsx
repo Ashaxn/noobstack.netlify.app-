@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import M from "materialize-css";
 import "materialize-css/dist/css/materialize.min.css";
+
+import "../App.css";
 // eslint-disable-next-line
 import { Link } from "react-router-dom";
 
@@ -16,7 +18,7 @@ class Navbar extends Component {
       <React.Fragment>
         <nav className="teal">
           <div className="nav-wrapper">
-            <a href="/" className="brand-logo left-align">
+            <a href="/" className="brand-logo">
               eShop.lk
             </a>
             <a href="/" data-target="mobile-demo" class="sidenav-trigger">
@@ -24,7 +26,7 @@ class Navbar extends Component {
             </a>
             <ul className="right hide-on-med-and-down">
               <li>
-                <a href="sass.html">Home</a>
+                <Link to="/">Home</Link>
               </li>
               <li>
                 <a href="badges.html">Search</a>
@@ -33,30 +35,32 @@ class Navbar extends Component {
                 <a href="collapsible.html">Products</a>
               </li>
               <li>
-                <a href="mobile.html">Signup</a>
+                <Link to="/signup">Singup</Link>
               </li>
-              <li>
-                <a href="mobile.html">Login</a>
+              <li className="sidenav-close">
+                <Link to="/login">Login</Link>
               </li>
             </ul>
           </div>
         </nav>
 
         <ul className="sidenav" id="mobile-demo">
-          <li>
-            <a href="sass.html">Home</a>
+          <li className="sidenav-close">
+            <Link to="/">Home</Link>
           </li>
-          <li>
+          <li className="sidenav-close">
             <a href="badges.html">Search</a>
           </li>
-          <li>
+          <li className="sidenav-close">
             <a href="collapsible.html">Products</a>
           </li>
-          <li>
-            <a href="mobile.html">Signup</a>
+
+          <li className="sidenav-close">
+            <Link to="/signup">Singup</Link>
           </li>
-          <li>
-            <a href="mobile.html">Login</a>
+
+          <li className="sidenav-close">
+            <Link to="/login">Login</Link>
           </li>
         </ul>
       </React.Fragment>
