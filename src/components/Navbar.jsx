@@ -15,23 +15,26 @@ class Navbar extends Component {
         <nav className="teal">
           <div className="nav-wrapper">
             <a href="/" className="brand-logo left-align">
-              Logo
+              eShop.lk
             </a>
             <a href="/" data-target="mobile-demo" class="sidenav-trigger">
               <i className="material-icons">menu</i>
             </a>
             <ul className="right hide-on-med-and-down">
               <li>
-                <a href="sass.html">Sass</a>
+                <a href="sass.html">Home</a>
               </li>
               <li>
-                <a href="badges.html">Components</a>
+                <a href="badges.html">Search</a>
               </li>
               <li>
-                <a href="collapsible.html">Javascript</a>
+                <a href="collapsible.html">Products</a>
               </li>
               <li>
-                <a href="mobile.html">Mobile</a>
+                <a href="mobile.html">Signup</a>
+              </li>
+              <li>
+                <a href="mobile.html">Login</a>
               </li>
             </ul>
           </div>
