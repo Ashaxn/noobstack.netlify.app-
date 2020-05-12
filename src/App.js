@@ -9,6 +9,7 @@ import PhotoGallery from "./components/PhotoGallery";
 import IndexAbout from "./components/IndexAbout";
 import SignUp from "./components/SignUp";
 import Login from "./components/Login";
+import Footer from "./components/Footer";
 // eslint-disable-next-line
 import {
   BrowserRouter as Router,
@@ -35,6 +36,8 @@ function App() {
         <Route path="/" exact component={IndexAbout} />
         <Route path="/signup" exact component={SignUp} />
         <Route path="/login" exact component={Login} />
+
+        <Footer />
       </div>
     </Router>
   );

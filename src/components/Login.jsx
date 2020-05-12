@@ -1,11 +1,13 @@
 import React, { Component } from "react";
 import "materialize-css/dist/css/materialize.min.css";
 
+import "../App.css";
+
 class Login extends Component {
   state = {};
   render() {
     return (
-      <div className="container" id="myForm">
+      <div className="container test" id="myForm">
         <form className="loginForm" action="login" method="post">
           <div className="card-panel z-depth-3 grey lighten-5">
             <div className="row">

@@ -1,10 +1,11 @@
 import React, { Component } from "react";
+import "../App.css";
 
 class IndexAbout extends Component {
   state = {};
   render() {
     return (
-      <section id="contact" class="section section-contact scrollspy">
+      <section id="contact" className="section section-contact scrollspy test">
         <div className="container">
           <div className="row">
             <div className="col s12 m6">

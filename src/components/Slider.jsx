@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import M from "materialize-css";
 import "materialize-css/dist/css/materialize.min.css";
+import "../App.css";
 
 class Slider extends Component {
   state = {};
@@ -15,7 +16,7 @@ class Slider extends Component {
       });
     });
     return (
-      <div>
+      <div className="test">
         <div className="slider">
           <ul className="slides">
             <li>

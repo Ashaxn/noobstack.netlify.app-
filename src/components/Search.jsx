@@ -1,11 +1,13 @@
 import React, { Component } from "react";
 import "materialize-css/dist/css/materialize.min.css";
 
+import "../App.css";
+
 class Search extends Component {
   state = {};
   render() {
     return (
-      <div id="search" className="scrollspy">
+      <div id="search" className="scrollspy test">
         <div
           id="search"
           className="section section-search teal darken-1 white-text center"

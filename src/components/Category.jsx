@@ -1,12 +1,14 @@
 import React, { Component } from "react";
 import "materialize-css/dist/css/materialize.min.css";
 
+import "../App.css";
+
 class Category extends Component {
   state = {};
 
   render() {
     return (
-      <div className="col s12 m4">
+      <div className="col s12 m4 test">
         <div className="card medium">
           <div className="card-image">
             <img src={this.props.cardInfo.image} alt="" />

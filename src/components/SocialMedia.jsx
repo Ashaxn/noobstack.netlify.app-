@@ -1,10 +1,11 @@
 import React, { Component } from "react";
+import "../App.css";
 
 class SocialMedia extends Component {
   state = {};
   render() {
     return (
-      <section className="section section-follow teal darken-2 white-text center scrollspy">
+      <section className="section section-follow teal darken-2 white-text center scrollspy test">
         <div className="container">
           <div className="row">
             <div className="col s12">
