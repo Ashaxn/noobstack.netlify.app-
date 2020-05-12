@@ -10,13 +10,19 @@ import IndexAbout from "./components/IndexAbout";
 import SignUp from "./components/SignUp";
 import Login from "./components/Login";
 // eslint-disable-next-line
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  // eslint-disable-next-line
+  Switch,
+  Route,
+  HashRouter,
+} from "react-router-dom";
 
 import "./App.css";
 
 function App() {
   return (
-    <Router>
+    <Router history={HashRouter}>
       <div className="App">
         <Navbar />
 
