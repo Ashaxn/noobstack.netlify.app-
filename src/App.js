@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "./components/NavFooter/Navbar";
 import Slider from "./components/home/Slider";
-import Search from "./components/home/Search";
 import CategoryContainer from "./components/home/CategoryContainer";
 import StaticCards from "./components/home/StaticCards";
 import SocialMedia from "./components/home/SocialMedia";
@@ -10,6 +9,7 @@ import IndexAbout from "./components/home/IndexAbout";
 import SignUp from "./components/signup/SignUp";
 import Login from "./components/login/Login";
 import Footer from "./components/NavFooter/Footer";
+
 // eslint-disable-next-line
 import {
   BrowserRouter as Router,
@@ -28,7 +28,7 @@ function App() {
         <Navbar />
 
         <Route path="/" exact component={Slider} />
-        <Route path="/" exact component={Search} />
+
         <Route path="/" exact component={CategoryContainer} />
         <Route path="/" exact component={StaticCards} />
         <Route path="/" exact component={SocialMedia} />

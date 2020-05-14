@@ -9,55 +9,55 @@ class CategoryContainer extends Component {
       <section id="popular" class="section section-popular scrollspy">
         <div className="container">
           <h4 className="center">
-            <span className="teal-text">Popular</span> Categories
+            <span className="teal-text">Popular</span> Courses
           </h4>
           <div className="row">
             <Category
               cardInfo={{
                 image:
-                  "https://raw.githubusercontent.com/Shihara-Dilshan/img/master/samsung-samsung-galaxy-s6-edge-plus-edge-plus-s6-edge-47261.jpg",
-                title: "Mobile Phones",
-                Descripion: "Samsung , Apple , Huwaei and many other options",
+                  "https://raw.githubusercontent.com/Shihara-Dilshan/img/master/Top-10-Tips-To-Learn-JavaScript.jpg",
+                title: "Vanilla JS",
+                Descripion: "Learn Java Script",
               }}
             />
             <Category
               cardInfo={{
                 image:
-                  "https://raw.githubusercontent.com/Shihara-Dilshan/img/master/semi-opened-laptop-computer-turned-on-on-table-2047905.jpg",
-                title: "Laptops",
-                Descripion: "Most powerfull laptops for your needs",
+                  "https://raw.githubusercontent.com/Shihara-Dilshan/img/master/1633292_981a.jpg",
+                title: "ES6",
+                Descripion: "Learn updated syntax for Modern Java Script",
               }}
             />
             <Category
               cardInfo={{
                 image:
-                  "https://raw.githubusercontent.com/Shihara-Dilshan/img/master/photo-of-nike-shoes-1598505.jpg",
-                title: "Shoes",
-                Descripion: "Adiddas , Nike And World's famous Brands",
+                  "https://raw.githubusercontent.com/Shihara-Dilshan/img/master/jquery-undefined.png",
+                title: "jQuary",
+                Descripion: "Learn jQuary to reduce Boilerplate codes",
               }}
             />
             <Category
               cardInfo={{
                 image:
-                  "https://raw.githubusercontent.com/Shihara-Dilshan/img/master/photo-of-nike-shoes-1598505.jpg",
-                title: "Mobile Phones",
+                  "https://raw.githubusercontent.com/Shihara-Dilshan/img/master/1_B9uqLg7-TM2-bAIwa7Zxuw.png",
+                title: "",
                 Descripion: "Samsung , Apple , Huwaei",
               }}
             />
             <Category
               cardInfo={{
                 image:
-                  "https://raw.githubusercontent.com/Shihara-Dilshan/img/master/books-in-black-wooden-book-shelf-159711.jpg",
-                title: "Books",
+                  "https://raw.githubusercontent.com/Shihara-Dilshan/img/master/the-seo-guide-to-angular.png",
+                title: "",
                 Descripion: "10000+ books of most famous Authors Available",
               }}
             />
             <Category
               cardInfo={{
                 image:
-                  "https://raw.githubusercontent.com/Shihara-Dilshan/img/master/ball-court-design-game-209977.jpg",
-                title: "Sports Items",
-                Descripion: "For any type of sports.",
+                  "https://raw.githubusercontent.com/Shihara-Dilshan/img/master/1_xdo0UBpyszvD7-7EH4TkIA.png",
+                title: "Node JS",
+                Descripion: "Run Java script o nthe server",
               }}
             />
           </div>

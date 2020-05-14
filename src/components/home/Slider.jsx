@@ -21,43 +21,32 @@ class Slider extends Component {
           <ul className="slides">
             <li>
               <img
-                src="https://raw.githubusercontent.com/Shihara-Dilshan/img/master/erik-mclean-nfoRa6NHTbU-unsplash.jpg"
-                alt=""
-              />
-              <div className="caption center-align">
-                <h3>This is our big Tagline!</h3>
-                <h5 claclassNamess="light grey-text text-lighten-3">
-                  Here's our small slogan.
-                </h5>
-              </div>
-            </li>
-            <li>
-              <img
-                src="https://raw.githubusercontent.com/Shihara-Dilshan/img/master/brooke-cagle-WHWYBmtn3_0-unsplash.jpg"
-                alt=""
-              />
-              <div className="caption left-align">
-                <h3>Left Aligned Caption</h3>
-                <h5 className="light grey-text text-lighten-3">
-                  Here's our small slogan.
-                </h5>
-              </div>
-            </li>
-            <li>
-              <img
-                src="https://raw.githubusercontent.com/Shihara-Dilshan/img/master/sahin-yesilyaprak-9eGMyzOSyYE-unsplash.jpg"
+                src="https://raw.githubusercontent.com/Shihara-Dilshan/img/master/wp4924004-react-js-wallpapers.jpg"
                 alt=""
               />
               <div className="caption right-align">
-                <h3>Right Aligned Caption</h3>
-                <h5 className="light grey-text text-lighten-3">
-                  Here's our small slogan.
+                <h3>Learn NodeJS!</h3>
+                <h5 claclassNamess="light grey-text text-lighten-3">
+                  Run Java Script on server.
                 </h5>
               </div>
             </li>
             <li>
               <img
-                src="https://raw.githubusercontent.com/Shihara-Dilshan/img/master/fashion-fashionable-footwear-leather-267301.jpg"
+                src="https://raw.githubusercontent.com/Shihara-Dilshan/img/master/wp4923981-react-js-wallpapers.jpg"
+                alt=""
+              />
+              <div className="caption left-align">
+                <h3>React JS</h3>
+                <h5 className="light grey-text text-lighten-3">
+                  Java Script for front end.
+                </h5>
+              </div>
+            </li>
+
+            <li>
+              <img
+                src="https://raw.githubusercontent.com/Shihara-Dilshan/img/master/wp4923978-react-js-wallpapers.jpg"
                 alt=""
               />
               <div className="caption center-align">
