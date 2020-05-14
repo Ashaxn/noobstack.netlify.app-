@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import M from "materialize-css";
 import "materialize-css/dist/css/materialize.min.css";
 
-import "../App.css";
+import "../../App.css";
 // eslint-disable-next-line
 import { Link } from "react-router-dom";
 
@@ -19,7 +19,7 @@ class Navbar extends Component {
         <nav className="teal">
           <div className="nav-wrapper">
             <a href="/" className="brand-logo">
-              eShop.lk
+              NoobStack
             </a>
             <a href="/" data-target="mobile-demo" class="sidenav-trigger">
               <i className="material-icons">menu</i>

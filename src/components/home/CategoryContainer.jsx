@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Category from "./Category";
+import Category from "../categoryCard/Category";
 import "materialize-css/dist/css/materialize.min.css";
 
 class CategoryContainer extends Component {

@@ -1,15 +1,15 @@
 import React from "react";
-import Navbar from "./components/Navbar";
-import Slider from "./components/Slider";
-import Search from "./components/Search";
-import CategoryContainer from "./components/CategoryContainer";
-import StaticCards from "./components/StaticCards";
-import SocialMedia from "./components/SocialMedia";
-import PhotoGallery from "./components/PhotoGallery";
-import IndexAbout from "./components/IndexAbout";
-import SignUp from "./components/SignUp";
-import Login from "./components/Login";
-import Footer from "./components/Footer";
+import Navbar from "./components/NavFooter/Navbar";
+import Slider from "./components/home/Slider";
+import Search from "./components/home/Search";
+import CategoryContainer from "./components/home/CategoryContainer";
+import StaticCards from "./components/home/StaticCards";
+import SocialMedia from "./components/home/SocialMedia";
+import PhotoGallery from "./components/home/PhotoGallery";
+import IndexAbout from "./components/home/IndexAbout";
+import SignUp from "./components/signup/SignUp";
+import Login from "./components/login/Login";
+import Footer from "./components/NavFooter/Footer";
 // eslint-disable-next-line
 import {
   BrowserRouter as Router,
