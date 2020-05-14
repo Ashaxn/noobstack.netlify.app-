@@ -16,7 +16,7 @@ class Navbar extends Component {
 
     return (
       <React.Fragment>
-        <nav className="teal">
+        <nav className="grey darken-3">
           <div className="nav-wrapper">
             <a href="/" className="brand-logo">
               NoobStack
