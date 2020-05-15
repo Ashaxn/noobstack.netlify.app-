@@ -21,16 +21,6 @@ class Slider extends Component {
         <div className="slider">
           <ul className="slides">
             <li>
-              <Image image="https://raw.githubusercontent.com/Shihara-Dilshan/img/master/wp4924004-react-js-wallpapers.jpg" />
-
-              <div className="caption right-align">
-                <h3>Learn NodeJS!</h3>
-                <h5 claclassNamess="light grey-text text-lighten-3">
-                  Run Java Script on server.
-                </h5>
-              </div>
-            </li>
-            <li>
               <Image image="https://raw.githubusercontent.com/Shihara-Dilshan/img/master/wp4923981-react-js-wallpapers.jpg" />
 
               <div className="caption left-align">
@@ -40,14 +30,24 @@ class Slider extends Component {
                 </h5>
               </div>
             </li>
+            <li>
+              <Image image="https://raw.githubusercontent.com/Shihara-Dilshan/img/master/wp4924004-react-js-wallpapers.jpg" />
+
+              <div className="caption right-align grey-text">
+                <h3>Learn NodeJS!</h3>
+                <h5 claclassNamess="light grey-text text-lighten-3">
+                  Run Java Script on server.
+                </h5>
+              </div>
+            </li>
 
             <li>
               <Image image="https://raw.githubusercontent.com/Shihara-Dilshan/img/master/wp4923978-react-js-wallpapers.jpg" />
 
               <div className="caption center-align">
-                <h3>This is our big Tagline!</h3>
+                <h3>Full Stack Java Script</h3>
                 <h5 className="light grey-text text-lighten-3">
-                  Here's our small slogan.
+                  Learn to use JS Everywhere
                 </h5>
               </div>
             </li>
