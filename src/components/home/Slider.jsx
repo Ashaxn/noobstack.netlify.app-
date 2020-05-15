@@ -17,7 +17,7 @@ class Slider extends Component {
       });
     });
     return (
-      <div className="test">
+      <div className="test problems" id="slider">
         <div className="slider">
           <ul className="slides">
             <li>

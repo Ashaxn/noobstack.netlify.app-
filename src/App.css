@@ -1,6 +1,18 @@
 body {
 }
 
+a {
+  text-decoration: none;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
 .socialMedia {
   display: flex;
   flex-direction: row;

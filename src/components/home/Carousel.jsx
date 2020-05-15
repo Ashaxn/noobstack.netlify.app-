@@ -19,7 +19,7 @@ class Carousel extends Component {
       indicators: true,
     });
     return (
-      <div className="carousel">
+      <div className="carousel problems" id="slider2">
         <a className="carousel-item large" href="#one!">
           <Image image="https://raw.githubusercontent.com/Shihara-Dilshan/img/master/Top-10-Tips-To-Learn-JavaScript.jpg" />
         </a>

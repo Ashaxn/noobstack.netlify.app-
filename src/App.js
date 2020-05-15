@@ -26,13 +26,14 @@ function App() {
       <div className="App">
         <Navbar />
 
-        <Route path="/" exact component={Slider} />
+        <Route path="/" component={Slider} />
         <Route path="/" exact component={CategoryContainer} />
         <Route path="/" exact component={StaticCards} />
         <Route path="/" exact component={SocialMedia} />
-        <Route path="/" exact component={Carousel} />
+        <Route path="/" component={Carousel} />
         <Route path="/signup" exact component={SignUp} />
         <Route path="/about" exact component={About} />
+        <Route path="/courses" exact component={CategoryContainer} />
         <Footer />
       </div>
     </Router>
