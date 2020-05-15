@@ -8,7 +8,7 @@ import Contributes from "./components/Contributes/Contributes";
 import About from "./components/About/About";
 import Footer from "./components/NavFooter/Footer";
 import Carousel from "./components/home/Carousel";
-
+import IButton from "./components/NavFooter/IButton";
 // eslint-disable-next-line
 import {
   BrowserRouter as Router,
@@ -25,7 +25,7 @@ function App() {
     <Router history={HashRouter}>
       <div className="App">
         <Navbar />
-
+        <Route path="/" component={IButton} />
         <Route path="/" component={Slider} />
         <Route path="/" exact component={CategoryContainer} />
         <Route path="/" exact component={StaticCards} />

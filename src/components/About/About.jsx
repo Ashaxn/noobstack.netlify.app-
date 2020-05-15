@@ -5,6 +5,7 @@ import "../../App.css";
 
 class About extends Component {
   state = {};
+
   componentDidMount() {
     let problemEle = document.querySelectorAll(".problems");
     problemEle.forEach((problem) => {
@@ -13,19 +14,33 @@ class About extends Component {
     });
   }
 
+  removeLoading = () => {
+    let loader = document.querySelector(".indeterminate");
+    setTimeout(() => {
+      loader.classList.remove("indeterminate");
+    }, 1000);
+  };
+
   render() {
     return (
-      <div class="row test container" id="about">
-        <div class="col s12 m12">
-          <div class="card ">
-            <div class="card-image">
+      <div
+        className="row test container"
+        id="about"
+        onLoad={this.removeLoading}
+      >
+        <div className="col s12 m12">
+          <div className="card ">
+            <div className="card-image">
               <img
                 src="https://raw.githubusercontent.com/Shihara-Dilshan/img/master/5343340281200640.png"
                 alt=""
               />
-              <span class="card-title">NoobStack</span>
+              <span className="card-title">NoobStack</span>
             </div>
-            <div class="card-content">
+            <div className="card-content">
+              <div className="progress">
+                <div className="indeterminate"></div>
+              </div>
               <p>
                 NoobStack is a online resource for Java Script full stack
                 developer. We provide beginner level knowledge to experienced

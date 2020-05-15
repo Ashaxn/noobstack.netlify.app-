@@ -39,7 +39,7 @@ class Navbar extends Component {
 
     return (
       <React.Fragment>
-        <nav className="grey darken-3">
+        <nav className="grey darken-3" id="scroll">
           <div className="nav-wrapper">
             <a href="#!" className="brand-logo">
               <Link onClick={this.showSlider} to="/">
@@ -62,7 +62,7 @@ class Navbar extends Component {
                 </Link>
               </li>
               <li>
-                <Link onClick={this.showSlider} to="/contribute">
+                <Link onClick={this.hideSlider} to="/contribute">
                   Improve
                 </Link>
               </li>
