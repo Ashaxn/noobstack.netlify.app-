@@ -18,7 +18,8 @@ class CategoryContainer extends Component {
                 image:
                   "https://raw.githubusercontent.com/Shihara-Dilshan/img/master/Top-10-Tips-To-Learn-JavaScript.jpg",
                 title: "Vanilla JS",
-                Descripion: "Learn Java Script",
+                Descripion:
+                  "Learn vanilla Java Script for start your full stack dream",
               }}
             />
             <Category
@@ -42,7 +43,8 @@ class CategoryContainer extends Component {
                 image:
                   "https://raw.githubusercontent.com/Shihara-Dilshan/img/master/1_B9uqLg7-TM2-bAIwa7Zxuw.png",
                 title: "",
-                Descripion: "Samsung , Apple , Huwaei",
+                Descripion:
+                  "React the most powerfull font end frame work for developing font-end UI",
               }}
             />
             <Category
@@ -50,7 +52,8 @@ class CategoryContainer extends Component {
                 image:
                   "https://raw.githubusercontent.com/Shihara-Dilshan/img/master/the-seo-guide-to-angular.png",
                 title: "",
-                Descripion: "10000+ books of most famous Authors Available",
+                Descripion:
+                  "Google's Angular. It is also a frame work for developing fron-end UIs.",
               }}
             />
             <Category
@@ -58,7 +61,7 @@ class CategoryContainer extends Component {
                 image:
                   "https://raw.githubusercontent.com/Shihara-Dilshan/img/master/1_xdo0UBpyszvD7-7EH4TkIA.png",
                 title: "Node JS",
-                Descripion: "Run Java script o nthe server",
+                Descripion: "Node.js google's V8 engine for back-end",
               }}
             />
           </div>
