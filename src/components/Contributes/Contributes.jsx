@@ -28,19 +28,23 @@ class Contributes extends Component {
       M.Parallax.init(elems);
     });
     return (
-      <div class="row test container" id="about" onLoad={this.removeLoading}>
-        <div class="col s12 m12">
-          <div class="card ">
-            <div class="card-image">
+      <div
+        className="row test container"
+        id="about"
+        onLoad={this.removeLoading}
+      >
+        <div className="col s12 m12">
+          <div className="card ">
+            <div className="card-image">
               <img
                 src="https://raw.githubusercontent.com/Shihara-Dilshan/img/master/wwwoie_transparent.png"
                 alt=""
               />
             </div>
-            <div class="progress">
-              <div class="indeterminate"></div>
+            <div className="progress">
+              <div className="indeterminate"></div>
             </div>
-            <div class="card-content">
+            <div className="card-content">
               <p>
                 This page hosted in GitHub pages.
                 <span className="teal-text">
