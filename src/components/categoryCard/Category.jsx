@@ -28,7 +28,7 @@ class Category extends Component {
           </div>
           <div className="card-action white-text">
             <Link to={this.props.cardInfo.link} className="white-text">
-              <li className="btn white-text" id="catExplore">
+              <li className="btn white-text grey darken-3" id="catExplore">
                 View Course
               </li>
             </Link>

@@ -25,39 +25,47 @@ class JsMaterialContainer extends Component {
             <JsCard
               cardInfo={{
                 video:
-                  "https://raw.githubusercontent.com/Shihara-Dilshan/img/master/1633292_981a.jpg",
-                title: "ES6",
+                  "https://raw.githubusercontent.com/Shihara-Dilshan/img/master/Top-10-Tips-To-Learn-JavaScript.jpg",
+                title: "Introduction",
                 Descripion: "Learn updated syntax for Modern Java Script",
                 link: "javascript",
+                poster:
+                  "https://raw.githubusercontent.com/Shihara-Dilshan/img/master/introduction-to-javascript.png",
               }}
             />
             <JsCard
               cardInfo={{
                 video:
                   "https://raw.githubusercontent.com/Shihara-Dilshan/img/master/jquery-undefined.png",
-                title: "jQuary",
+                title: "Variables",
                 Descripion: "Learn jQuary to reduce Boilerplate codes",
                 link: "jasvascript",
+                poster:
+                  "https://raw.githubusercontent.com/Shihara-Dilshan/img/master/ad34e5753300.jpg",
               }}
             />
             <JsCard
               cardInfo={{
                 video:
                   "https://raw.githubusercontent.com/Shihara-Dilshan/img/master/1_B9uqLg7-TM2-bAIwa7Zxuw.png",
-                title: "",
+                title: "What is Java Script DOM API",
                 Descripion:
                   "React the most powerfull font end frame work for developing font-end UI",
                 link: "javascrispt",
+                poster:
+                  "https://raw.githubusercontent.com/Shihara-Dilshan/img/master/maxresdefault.jpg",
               }}
             />
             <JsCard
               cardInfo={{
                 video:
                   "https://raw.githubusercontent.com/Shihara-Dilshan/img/master/the-seo-guide-to-angular.png",
-                title: "",
+                title: "What is Java Script DOM API",
                 Descripion:
                   "Google's Angular. It is also a frame work for developing fron-end UIs.",
                 link: "javascsript",
+                poster:
+                  "https://raw.githubusercontent.com/Shihara-Dilshan/img/master/1_5dbaz5S1Buevb-fZQDbYzg.jpeg",
               }}
             />
             <JsCard
