@@ -9,6 +9,7 @@ import About from "./components/About/About";
 import Footer from "./components/NavFooter/Footer";
 import Carousel from "./components/home/Carousel";
 import IButton from "./components/NavFooter/IButton";
+import JsMaterialContainer from "./components/Courses/VanillaJS/JsMaterialContainer";
 // eslint-disable-next-line
 import {
   BrowserRouter as Router,
@@ -35,6 +36,7 @@ function App() {
         <Route path="/about" exact component={About} />
         <Route path="/courses" exact component={CategoryContainer} />
         <Route path="/" component={Carousel} />
+        <Route path="/javascript" component={JsMaterialContainer} />
         <Footer />
       </div>
     </Router>

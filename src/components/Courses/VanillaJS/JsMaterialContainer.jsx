@@ -1,59 +1,58 @@
 import React, { Component } from "react";
-import Category from "../categoryCard/Category";
+import JsCard from "./JsCards";
+
 import "materialize-css/dist/css/materialize.min.css";
 
-class CategoryContainer extends Component {
+class JsMaterialContainer extends Component {
   state = {};
+
+  componentDidMount() {
+    let problemEle = document.querySelectorAll(".problems");
+    problemEle.forEach((problem) => {
+      problem.classList.remove("show");
+      problem.classList.add("hide");
+    });
+  }
 
   render() {
     return (
       <section id="popular" class="section section-popular scrollspy">
         <div className="container">
           <h4 className="center">
-            <span className="teal-text">Popular</span> Courses
+            <span className="teal-text">Java Script</span> full Course
           </h4>
           <div className="row">
-            <Category
+            <JsCard
               cardInfo={{
-                image:
-                  "https://raw.githubusercontent.com/Shihara-Dilshan/img/master/Top-10-Tips-To-Learn-JavaScript.jpg",
-                title: "Vanilla JS",
-                Descripion:
-                  "Learn vanilla Java Script for start your full stack dream",
-                link: "javascript",
-              }}
-            />
-            <Category
-              cardInfo={{
-                image:
+                video:
                   "https://raw.githubusercontent.com/Shihara-Dilshan/img/master/1633292_981a.jpg",
                 title: "ES6",
                 Descripion: "Learn updated syntax for Modern Java Script",
-                link: "javasscript",
+                link: "javascript",
               }}
             />
-            <Category
+            <JsCard
               cardInfo={{
-                image:
+                video:
                   "https://raw.githubusercontent.com/Shihara-Dilshan/img/master/jquery-undefined.png",
                 title: "jQuary",
                 Descripion: "Learn jQuary to reduce Boilerplate codes",
-                link: "javascripst",
+                link: "jasvascript",
               }}
             />
-            <Category
+            <JsCard
               cardInfo={{
-                image:
+                video:
                   "https://raw.githubusercontent.com/Shihara-Dilshan/img/master/1_B9uqLg7-TM2-bAIwa7Zxuw.png",
                 title: "",
                 Descripion:
                   "React the most powerfull font end frame work for developing font-end UI",
-                link: "javascrsipt",
+                link: "javascrispt",
               }}
             />
-            <Category
+            <JsCard
               cardInfo={{
-                image:
+                video:
                   "https://raw.githubusercontent.com/Shihara-Dilshan/img/master/the-seo-guide-to-angular.png",
                 title: "",
                 Descripion:
@@ -61,13 +60,13 @@ class CategoryContainer extends Component {
                 link: "javascsript",
               }}
             />
-            <Category
+            <JsCard
               cardInfo={{
-                image:
+                video:
                   "https://raw.githubusercontent.com/Shihara-Dilshan/img/master/1_xdo0UBpyszvD7-7EH4TkIA.png",
                 title: "Node JS",
                 Descripion: "Node.js google's V8 engine for back-end",
-                link: "javascrispt",
+                link: "javasscript",
               }}
             />
           </div>
@@ -77,4 +76,4 @@ class CategoryContainer extends Component {
   }
 }
 
-export default CategoryContainer;
+export default JsMaterialContainer;

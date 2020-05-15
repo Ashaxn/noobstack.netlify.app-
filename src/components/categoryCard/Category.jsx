@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "materialize-css/dist/css/materialize.min.css";
 import M from "materialize-css";
-
+import { Link } from "react-router-dom";
 import "../../App.css";
 
 class Category extends Component {
@@ -26,15 +26,12 @@ class Category extends Component {
           <div className="card-content">
             <p>{this.props.cardInfo.Descripion}</p>
           </div>
-          <div className="card-action">
-            <a
-              onClick={this.fuck}
-              href="/"
-              className="btn grey darken-3"
-              id="catExplore"
-            >
-              View Course
-            </a>
+          <div className="card-action white-text">
+            <Link to={this.props.cardInfo.link} className="white-text">
+              <li className="btn white-text" id="catExplore">
+                View Course
+              </li>
+            </Link>
           </div>
         </div>
       </div>
