@@ -7,17 +7,17 @@ class About extends Component {
   state = {};
   render() {
     return (
-      <div className="container test" id="myForm">
-        <div className="card-panel z-depth-3 grey lighten-5">
-          <div className="row">
-            <div className="col s12">
-              <div className="card-title center-align grey-text">
-                <h4>NoobStack</h4>
-              </div>
+      <div class="row test container">
+        <div class="col s12 m12">
+          <div class="card ">
+            <div class="card-image">
+              <img
+                src="https://raw.githubusercontent.com/Shihara-Dilshan/img/master/5343340281200640.png"
+                alt=""
+              />
+              <span class="card-title">NoobStack</span>
             </div>
-          </div>
-          <div className="row">
-            <div className="input-field col s12">
+            <div class="card-content">
               <p>
                 NoobStack is a online resource for Java Script full stack
                 developer. We provide beginner level knowledge to experienced
