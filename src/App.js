@@ -30,9 +30,7 @@ function App() {
         <Route path="/" exact component={CategoryContainer} />
         <Route path="/" exact component={StaticCards} />
         <Route path="/" exact component={SocialMedia} />
-
         <Route path="/" exact component={Carousel} />
-
         <Route path="/signup" exact component={SignUp} />
         <Route path="/about" exact component={About} />
         <Footer />

@@ -10,6 +10,7 @@ class Category extends Component {
     return (
       <div className="col s12 m4 test">
         <div className="card medium">
+          s
           <div className="card-image">
             <img src={this.props.cardInfo.image} alt="" />
             <span className="card-title">{this.props.cardInfo.title}</span>
@@ -18,7 +19,7 @@ class Category extends Component {
             <p>{this.props.cardInfo.Descripion}</p>
           </div>
           <div className="card-action">
-            <a href="/" className="btn">
+            <a href="/" className="btn" id="catExplore">
               Explore
             </a>
           </div>

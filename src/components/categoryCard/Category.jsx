@@ -18,8 +18,8 @@ class Category extends Component {
             <p>{this.props.cardInfo.Descripion}</p>
           </div>
           <div className="card-action">
-            <a href="/" className="btn">
-              Explore
+            <a href="/" className="btn grey darken-3" id="catExplore">
+              View Course
             </a>
           </div>
         </div>
