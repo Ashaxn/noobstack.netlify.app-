@@ -41,12 +41,12 @@ class Navbar extends Component {
       <React.Fragment>
         <nav className="grey darken-3" id="scroll">
           <div className="nav-wrapper">
-            <a href="#!" className="brand-logo">
+            <div className="brand-logo">
               <Link onClick={this.showSlider} to="/">
                 NoobStack
               </Link>
-            </a>
-            <a href="/" data-target="mobile-demo" class="sidenav-trigger">
+            </div>
+            <a href="/" data-target="mobile-demo" className="sidenav-trigger">
               <i className="material-icons">menu</i>
             </a>
             <ul className="right hide-on-med-and-down">

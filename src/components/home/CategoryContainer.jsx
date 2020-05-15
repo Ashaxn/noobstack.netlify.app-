@@ -7,7 +7,7 @@ class CategoryContainer extends Component {
 
   render() {
     return (
-      <section id="popular" class="section section-popular scrollspy">
+      <section id="popular" className="section section-popular scrollspy">
         <div className="container">
           <h4 className="center">
             <span className="teal-text">Popular</span> Courses

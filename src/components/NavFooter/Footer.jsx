@@ -21,7 +21,7 @@ class Footer extends Component {
             </div>
             <div className="col l4 offset-l2 s12">
               <h5 className="white-text">Follow me</h5>
-              <div class="socialMedia">
+              <div className="socialMedia">
                 <div>
                   <a
                     href="https://www.facebook.com/profile.php?id=100009084205665&ref=bookmarks"

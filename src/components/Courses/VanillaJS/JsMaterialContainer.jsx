@@ -60,7 +60,7 @@ class JsMaterialContainer extends Component {
               cardInfo={{
                 video:
                   "https://raw.githubusercontent.com/Shihara-Dilshan/img/master/the-seo-guide-to-angular.png",
-                title: "What is Java Script DOM API",
+                title: "DOM Man",
                 Descripion:
                   "Google's Angular. It is also a frame work for developing fron-end UIs.",
                 link: "javascsript",

@@ -7,20 +7,24 @@ class JsCards extends Component {
   render() {
     return (
       <div className="col s12 m4 test">
-        <div className="card medium">
+        <div className="card large">
           <div className="card-image">
-            <video
+            <iframe
               width="100%"
-              height="240"
-              controls
-              preload="none"
+              height="200px"
+              src="https://www.youtube.com/embed/BadnYBOVheQ"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen="allowfullscreen"
+              mozallowfullscreen="mozallowfullscreen"
+              msallowfullscreen="msallowfullscreen"
+              oallowfullscreen="oallowfullscreen"
+              webkitallowfullscreen="webkitallowfullscreen"
+              title="1"
               poster={this.props.cardInfo.poster}
-            >
-              <source
-                src="https://www.videvo.net/videvo_files/converted/2013_07/preview/hd0079.mov26726.webm"
-                type="video/webm"
-              />
-            </video>
+              preload="none"
+              controls
+            ></iframe>
           </div>
 
           <div className="card-content">

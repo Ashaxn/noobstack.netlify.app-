@@ -35,7 +35,7 @@ class Slider extends Component {
 
               <div className="caption right-align grey-text">
                 <h3>Learn NodeJS!</h3>
-                <h5 claclassNamess="light grey-text text-lighten-3">
+                <h5 className="light grey-text text-lighten-3">
                   Run Java Script on server.
                 </h5>
               </div>
