@@ -5,14 +5,6 @@ import "materialize-css/dist/css/materialize.min.css";
 class CategoryContainer extends Component {
   state = {};
 
-  componentDidMount() {
-    let problemEle = document.querySelectorAll(".problems");
-    problemEle.forEach((problem) => {
-      problem.classList.remove("show");
-      problem.classList.add("hide");
-    });
-  }
-
   render() {
     return (
       <section id="popular" class="section section-popular scrollspy">
