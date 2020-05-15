@@ -13,21 +13,51 @@ class SocialMedia extends Component {
               <p>Follow us on social media for </p>
               <a
                 href="https://www.facebook.com/profile.php?id=100009084205665&ref=bookmarks"
+                target="_blank"
                 className="white-text"
+                rel="noopener noreferrer"
               >
                 <i className="fab fa-facebook fa-4x"></i>
               </a>
-              <a href="/" className="white-text">
-                <i className="fab fa-twitter fa-4x"></i>
+              <a
+                href="https://github.com/Shihara-Dilshan"
+                target="_blank"
+                className="white-text"
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-github fa-4x"></i>
               </a>
-              <a href="/" className="white-text">
-                <i className="fab fa-google-plus fa-4x"></i>
-              </a>
-              <a href="/" className="white-text">
-                <i className="fab fa-pinterest fa-4x"></i>
-              </a>
-              <a href="/" className="white-text">
+              <a
+                href="https://www.linkedin.com/in/shihara-dilshan-5297711a4/"
+                target="_blank"
+                className="white-text"
+                rel="noopener noreferrer"
+              >
                 <i className="fab fa-linkedin fa-4x"></i>
+              </a>
+              <a
+                href="https://stackoverflow.com/users/13052660/shihara-dilshan"
+                target="_blank"
+                className="white-text"
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-stack-overflow fa-4x"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/shihara_ggez97/"
+                target="_blank"
+                className="white-text"
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-instagram fa-4x"></i>
+              </a>
+              <a
+                href="https://www.facebook.com/profile.php?id=100009084205665&ref=bookmarks"
+                target="_blank"
+                className="white-text"
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-twitter fa-3x"></i>
               </a>
             </div>
           </div>
