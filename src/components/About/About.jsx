@@ -5,9 +5,17 @@ import "../../App.css";
 
 class About extends Component {
   state = {};
+  componentDidMount() {
+    let problemEle = document.querySelectorAll(".problems");
+    problemEle.forEach((problem) => {
+      problem.classList.remove("show");
+      problem.classList.add("hide");
+    });
+  }
+
   render() {
     return (
-      <div class="row test container">
+      <div class="row test container" id="about">
         <div class="col s12 m12">
           <div class="card ">
             <div class="card-image">
