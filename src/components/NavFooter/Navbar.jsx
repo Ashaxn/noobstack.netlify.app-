@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 
 class Navbar extends Component {
   state = {};
+
   render() {
     document.addEventListener("DOMContentLoaded", function () {
       var elems = document.querySelectorAll(".sidenav");
@@ -35,10 +36,10 @@ class Navbar extends Component {
                 <Link to="/">Products</Link>
               </li>
               <li>
-                <Link to="/signup">Singup</Link>
+                <Link to="/signup">Courses</Link>
               </li>
               <li className="sidenav-close">
-                <Link to="/login">Login</Link>
+                <Link to="/about">About</Link>
               </li>
             </ul>
           </div>
@@ -56,11 +57,11 @@ class Navbar extends Component {
           </li>
 
           <li className="sidenav-close">
-            <Link to="/signup">Singup</Link>
+            <Link to="/signup">Courses</Link>
           </li>
 
           <li className="sidenav-close">
-            <Link to="/login">Login</Link>
+            <Link to="/about">About</Link>
           </li>
         </ul>
       </React.Fragment>

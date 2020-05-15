@@ -1,6 +1,15 @@
 body {
 }
 
+.socialMedia {
+  display: flex;
+  flex-direction: row;
+}
+
+.socialMedia > div {
+  padding-right: 1vh;
+}
+
 #myForm {
   margin-top: 11vh;
   margin-bottom: 200px;

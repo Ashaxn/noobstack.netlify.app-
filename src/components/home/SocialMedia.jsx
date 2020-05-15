@@ -5,13 +5,16 @@ class SocialMedia extends Component {
   state = {};
   render() {
     return (
-      <section className="section section-follow teal darken-2 white-text center scrollspy test">
+      <section className="section section-follow grey darken-3 white-text center scrollspy test">
         <div className="container">
           <div className="row">
             <div className="col s12">
-              <h4>Follow eShop.lk</h4>
+              <h4>Follow NoobStack</h4>
               <p>Follow us on social media for </p>
-              <a href="/" className="white-text">
+              <a
+                href="https://www.facebook.com/profile.php?id=100009084205665&ref=bookmarks"
+                className="white-text"
+              >
                 <i className="fab fa-facebook fa-4x"></i>
               </a>
               <a href="/" className="white-text">
