@@ -30,13 +30,21 @@ class Navbar extends Component {
       var elems = document.querySelectorAll(".sidenav");
       M.Sidenav.init(elems);
     });
+    document.addEventListener("DOMContentLoaded", function () {
+      var elems = document.querySelectorAll(".scrollspy");
+      M.ScrollSpy.init(elems, {
+        throttle: 50,
+      });
+    });
 
     return (
       <React.Fragment>
         <nav className="grey darken-3">
           <div className="nav-wrapper">
-            <a href="/" className="brand-logo">
-              NoobStack
+            <a href="#!" className="brand-logo">
+              <Link onClick={this.showSlider} to="/">
+                NoobStack
+              </Link>
             </a>
             <a href="/" data-target="mobile-demo" class="sidenav-trigger">
               <i className="material-icons">menu</i>
@@ -47,20 +55,19 @@ class Navbar extends Component {
                   Home
                 </Link>
               </li>
-              <li>
-                <Link onClick={this.hideSlider} to="/">
-                  Search
-                </Link>
-              </li>
+
               <li>
                 <Link onClick={this.hideSlider} to="/courses">
                   Courses
                 </Link>
               </li>
               <li>
-                <Link onClick={this.hideSlider} to="/signup">
+                <Link onClick={this.showSlider} to="/contribute">
                   Improve
                 </Link>
+              </li>
+              <li>
+                <a href="#introduction">Contact</a>
               </li>
               <li className="sidenav-close">
                 <Link onClick={this.hideSlider} to="/about">
@@ -77,11 +84,7 @@ class Navbar extends Component {
               Home
             </Link>
           </li>
-          <li className="sidenav-close">
-            <Link to="/" onClick={this.hideSlider}>
-              Search
-            </Link>
-          </li>
+
           <li className="sidenav-close">
             <Link to="/courses" onClick={this.hideSlider}>
               Courses
@@ -89,9 +92,12 @@ class Navbar extends Component {
           </li>
 
           <li className="sidenav-close">
-            <Link onClick={this.hideSlider} to="/signup">
+            <Link onClick={this.showSlider} to="/contribute">
               Improve
             </Link>
+          </li>
+          <li className="sidenav-close">
+            <a href="#introduction">Contact</a>
           </li>
 
           <li className="sidenav-close">

@@ -4,7 +4,7 @@ import Slider from "./components/home/Slider";
 import CategoryContainer from "./components/home/CategoryContainer";
 import StaticCards from "./components/home/StaticCards";
 import SocialMedia from "./components/home/SocialMedia";
-import SignUp from "./components/signup/SignUp";
+import Contributes from "./components/Contributes/Contributes";
 import About from "./components/About/About";
 import Footer from "./components/NavFooter/Footer";
 import Carousel from "./components/home/Carousel";
@@ -30,10 +30,11 @@ function App() {
         <Route path="/" exact component={CategoryContainer} />
         <Route path="/" exact component={StaticCards} />
         <Route path="/" exact component={SocialMedia} />
-        <Route path="/" component={Carousel} />
-        <Route path="/signup" exact component={SignUp} />
+
+        <Route path="/contribute" exact component={Contributes} />
         <Route path="/about" exact component={About} />
         <Route path="/courses" exact component={CategoryContainer} />
+        <Route path="/" component={Carousel} />
         <Footer />
       </div>
     </Router>

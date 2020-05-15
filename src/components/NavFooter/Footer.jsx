@@ -7,7 +7,10 @@ class Footer extends Component {
   state = {};
   render() {
     return (
-      <footer className="page-footer grey darken-3">
+      <footer
+        className="page-footer grey darken-3 section scrollspy"
+        id="introduction"
+      >
         <div className="container">
           <div className="row">
             <div className="col l6 s12">
