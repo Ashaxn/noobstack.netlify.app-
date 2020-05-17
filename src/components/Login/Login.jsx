@@ -2,11 +2,14 @@ import React, { Component } from "react";
 import "materialize-css/dist/css/materialize.min.css";
 
 import {
-  // eslint-disable-next-line
   Link,
+  // eslint-disable-next-line
   BrowserRouter as Router,
+  // eslint-disable-next-line
   Switch,
+  // eslint-disable-next-line
   Route,
+  // eslint-disable-next-line
   HashRouter,
 } from "react-router-dom";
 

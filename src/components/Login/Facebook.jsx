@@ -22,7 +22,10 @@ class Facebook extends Component {
     });
   };
 
-  componentClicked = () => console.log("clicked");
+  componentClicked = () =>
+    alert(
+      "Please note that this feature is on development mode. Only test users can log in"
+    );
 
   render() {
     let fbContent;
