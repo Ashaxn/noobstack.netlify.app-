@@ -7,7 +7,9 @@ import "../../App.css";
 import { Link } from "react-router-dom";
 
 class Navbar extends Component {
-  state = {};
+  state = {
+    login: "Login",
+  };
 
   showSlider = () => {
     let problemEle = document.querySelectorAll(".problems");
@@ -74,9 +76,9 @@ class Navbar extends Component {
                   About
                 </Link>
               </li>
-              <li>
+              <li id="loginBTN">
                 <Link onClick={this.hideSlider} to="/login">
-                  Login
+                  {this.state.login}
                 </Link>
               </li>
             </ul>
@@ -112,7 +114,7 @@ class Navbar extends Component {
           </li>
           <li className="sidenav-close">
             <Link onClick={this.hideSlider} to="/login">
-              Login
+              {this.state.login}
             </Link>
           </li>
         </ul>

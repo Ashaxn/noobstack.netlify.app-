@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "materialize-css/dist/css/materialize.min.css";
-import M from "materialize-css";
 
+import FaceBook from "./Facebook";
 import "../../App.css";
 
 class Login extends Component {
@@ -23,10 +23,6 @@ class Login extends Component {
   };
 
   render() {
-    document.addEventListener("DOMContentLoaded", function () {
-      var elems = document.querySelectorAll(".parallax");
-      M.Parallax.init(elems);
-    });
     return (
       <div
         className="row test container"
@@ -45,13 +41,8 @@ class Login extends Component {
               <div className="indeterminate"></div>
             </div>
             <div className="card-content center-align">
-              <div>
-                <button className="btn loginBtns blue">
-                  <i className="fab fa-facebook fa-3x large"></i>
-                  {"   "}
-                  Login wih FaceBook
-                </button>
-              </div>
+              <FaceBook />
+
               <br />
               <div>
                 <button className="btn loginBtns red">
