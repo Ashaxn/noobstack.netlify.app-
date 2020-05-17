@@ -1,11 +1,10 @@
 import React, { Component } from "react";
 import "materialize-css/dist/css/materialize.min.css";
 
-import FaceBook from "./Facebook";
 import {
+  // eslint-disable-next-line
   Link,
   BrowserRouter as Router,
-  // eslint-disable-next-line
   Switch,
   Route,
   HashRouter,
@@ -50,16 +49,16 @@ class Login extends Component {
               <div className="indeterminate"></div>
             </div>
             <div className="card-content center-align">
-              <FaceBook />
-
-              <div>
-                <button className="btn loginBtns blue">
-                  {" "}
-                  <i className="fab fa-facebook fa-3x large"></i>
-                  {"   "}
-                  Login wih Facebook
-                </button>
-              </div>
+              <Link onClick={this.hideSlider} to="/facebook">
+                <div>
+                  <button className="btn loginBtns blue">
+                    {" "}
+                    <i className="fab fa-facebook fa-3x large"></i>
+                    {"   "}
+                    Login wih Facebook
+                  </button>
+                </div>
+              </Link>
               <br />
               <div>
                 <button className="btn loginBtns red">

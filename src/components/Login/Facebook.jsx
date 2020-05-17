@@ -48,8 +48,6 @@ class Facebook extends Component {
       height="30px"
     />
     </Link>`;
-
-      localStorage.setItem("loggedIn", this.state.name);
     } else {
       fbContent = (
         <FacebookLogin
@@ -58,6 +56,7 @@ class Facebook extends Component {
           fields="name,email,picture"
           onClick={this.componentClicked}
           callback={this.responseFacebook}
+          disableMobileRedirect={true}
         />
       );
     }

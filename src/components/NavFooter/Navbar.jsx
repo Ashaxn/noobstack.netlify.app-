@@ -112,7 +112,7 @@ class Navbar extends Component {
               About
             </Link>
           </li>
-          <li className="sidenav-close">
+          <li className="sidenav-close" id="loginBTN2">
             <Link onClick={this.hideSlider} to="/login">
               {this.state.login}
             </Link>

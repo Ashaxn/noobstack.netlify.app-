@@ -40,7 +40,7 @@ function App() {
         <Route path="/" component={Carousel} />
         <Route path="/javascript" component={JsMaterialContainer} />
         <Route path="/login" component={Login} />
-
+        <Route path="/facebook" exact component={FaceBook} />
         <Footer />
       </div>
     </Router>
