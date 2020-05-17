@@ -74,6 +74,11 @@ class Navbar extends Component {
                   About
                 </Link>
               </li>
+              <li>
+                <Link onClick={this.hideSlider} to="/login">
+                  Login
+                </Link>
+              </li>
             </ul>
           </div>
         </nav>
@@ -103,6 +108,11 @@ class Navbar extends Component {
           <li className="sidenav-close">
             <Link onClick={this.hideSlider} to="/about">
               About
+            </Link>
+          </li>
+          <li className="sidenav-close">
+            <Link onClick={this.hideSlider} to="/login">
+              Login
             </Link>
           </li>
         </ul>

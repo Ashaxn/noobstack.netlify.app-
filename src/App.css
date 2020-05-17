@@ -5,6 +5,10 @@ a {
   text-decoration: none;
 }
 
+.loginBtns {
+  width: 100%;
+  height: 60px;
+}
 .hide {
   display: none;
 }
