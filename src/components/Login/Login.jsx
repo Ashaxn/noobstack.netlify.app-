@@ -50,16 +50,16 @@ class Login extends Component {
               <div className="indeterminate"></div>
             </div>
             <div className="card-content center-align">
-              <Link onClick={this.hideSlider} to="/facebook">
-                <div>
-                  <button className="btn loginBtns blue">
-                    {" "}
-                    <i className="fab fa-facebook fa-3x large"></i>
-                    {"   "}
-                    Login wih Facebook
-                  </button>
-                </div>
-              </Link>
+              <FaceBook />
+
+              <div>
+                <button className="btn loginBtns blue">
+                  {" "}
+                  <i className="fab fa-facebook fa-3x large"></i>
+                  {"   "}
+                  Login wih Facebook
+                </button>
+              </div>
               <br />
               <div>
                 <button className="btn loginBtns red">
