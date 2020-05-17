@@ -2,6 +2,15 @@ import React, { Component } from "react";
 import "materialize-css/dist/css/materialize.min.css";
 
 import FaceBook from "./Facebook";
+import {
+  Link,
+  BrowserRouter as Router,
+  // eslint-disable-next-line
+  Switch,
+  Route,
+  HashRouter,
+} from "react-router-dom";
+
 import "../../App.css";
 
 class Login extends Component {
@@ -41,8 +50,16 @@ class Login extends Component {
               <div className="indeterminate"></div>
             </div>
             <div className="card-content center-align">
-              <FaceBook />
-
+              <Link onClick={this.hideSlider} to="/facebook">
+                <div>
+                  <button className="btn loginBtns blue">
+                    {" "}
+                    <i className="fab fa-facebook fa-3x large"></i>
+                    {"   "}
+                    Login wih Facebook
+                  </button>
+                </div>
+              </Link>
               <br />
               <div>
                 <button className="btn loginBtns red">

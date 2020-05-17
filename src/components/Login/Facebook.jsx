@@ -47,11 +47,13 @@ class Facebook extends Component {
       height="30px"
     />
     </Link>`;
+
+      localStorage.setItem("loggedIn", this.state.name);
     } else {
       fbContent = (
         <FacebookLogin
           appId="248214172929612"
-          autoLoad={true}
+          autoLoad={false}
           fields="name,email,picture"
           onClick={this.componentClicked}
           callback={this.responseFacebook}
