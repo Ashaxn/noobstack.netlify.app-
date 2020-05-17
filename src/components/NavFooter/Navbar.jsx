@@ -8,7 +8,9 @@ import { Link } from "react-router-dom";
 
 class Navbar extends Component {
   state = {
-    login: "Login",
+    login: "",
+    Link: "",
+    image: "",
   };
 
   showSlider = () => {
@@ -26,6 +28,16 @@ class Navbar extends Component {
       problem.classList.add("hide");
     });
   };
+
+  componentDidMount() {
+    if (localStorage.getItem("userName") === null) {
+      this.setState({ login: "Login", Link: "login" });
+    } else {
+      this.setState({ login: localStorage.getItem("userName") });
+      this.setState({ Link: "/logout" });
+      this.setState({ image: localStorage.getItem("userPhoto") });
+    }
+  }
 
   render() {
     document.addEventListener("DOMContentLoaded", function () {
@@ -77,10 +89,11 @@ class Navbar extends Component {
                 </Link>
               </li>
               <li id="loginBTN">
-                <Link onClick={this.hideSlider} to="/login">
+                <Link onClick={this.hideSlider} to={this.state.Link}>
                   {this.state.login}
                 </Link>
               </li>
+              <img id="loginImge" src={this.state.image} alt="" />
             </ul>
           </div>
         </nav>
@@ -113,7 +126,7 @@ class Navbar extends Component {
             </Link>
           </li>
           <li className="sidenav-close" id="loginBTN2">
-            <Link onClick={this.hideSlider} to="/login">
+            <Link onClick={this.hideSlider} to={this.state.Link}>
               {this.state.login}
             </Link>
           </li>

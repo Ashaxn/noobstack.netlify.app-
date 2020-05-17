@@ -6,8 +6,10 @@ a {
 }
 
 #loginImge {
-  vertical-align: -10px;
+  vertical-align: -11px;
   padding-right: 2px;
+  height: 35px;
+  width: 35px;
 }
 
 .loginBtns {

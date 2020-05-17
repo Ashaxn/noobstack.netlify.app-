@@ -16,16 +16,13 @@ class Facebook extends Component {
     this.setState({
       isLoggedIn: true,
       userID: response.userID,
-      name: response.name,
+      name: response.name.split(" ")[0],
       email: response.email,
       picture: response.picture.data.url,
     });
   };
 
-  componentClicked = () =>
-    alert(
-      "Please note that this feature is on development mode. Only test users can log in"
-    );
+  componentClicked = () => console.log("clicked");
 
   render() {
     let fbContent;
@@ -34,23 +31,20 @@ class Facebook extends Component {
       let loginBTN = document.getElementById("loginBTN");
       loginBTN.innerHTML = `<Link onClick={this.hideSlider} to="/login">
       <li>
-      <a
-        class="dropdown-trigger"
-        href="#!"
-        data-target="dropdown1"
-      >
+      
         ${this.state.name}
-        <i class="material-icons right">arrow_drop_down</i>
-      </a>
-    </li>
+       
     <img
       id="loginImge"
       src=${this.state.picture} 
       alt=${this.state.name} 
-      width="30px"
-      height="30px"
+      width="35px"
+      height="35px"
     />
     </Link>`;
+
+      localStorage.setItem("userName", this.state.name);
+      localStorage.setItem("userPhoto", this.state.picture);
     } else {
       fbContent = (
         <FacebookLogin
