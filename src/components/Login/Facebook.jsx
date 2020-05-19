@@ -53,8 +53,8 @@ class Facebook extends Component {
       <img id="loginImge2" src=${this.state.picture} alt="" />
     </a>`;
 
-      localStorage.setItem("userName", this.state.name);
-      localStorage.setItem("userPhoto", this.state.picture);
+      sessionStorage.setItem("userName", this.state.name);
+      sessionStorage.setItem("userPhoto", this.state.picture);
     } else {
       fbContent = (
         <FacebookLogin

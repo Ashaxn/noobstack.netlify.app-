@@ -30,12 +30,12 @@ class Navbar extends Component {
   };
 
   componentDidMount() {
-    if (localStorage.getItem("userName") === null) {
+    if (sessionStorage.getItem("userName") === null) {
       this.setState({ login: "Login", Link: "login" });
     } else {
-      this.setState({ login: localStorage.getItem("userName") });
+      this.setState({ login: sessionStorage.getItem("userName") });
       this.setState({ Link: "/logout" });
-      this.setState({ image: localStorage.getItem("userPhoto") });
+      this.setState({ image: sessionStorage.getItem("userPhoto") });
     }
   }
 
