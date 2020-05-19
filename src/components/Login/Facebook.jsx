@@ -20,16 +20,21 @@ class Facebook extends Component {
       email: response.email,
       picture: response.picture.data.url,
     });
+    console.log(response);
   };
 
   componentClicked = () => console.log("clicked");
+
+  loginFailed = () => console.log("404");
 
   render() {
     let fbContent;
 
     if (this.state.isLoggedIn) {
       let loginBTN = document.getElementById("loginBTN");
-      loginBTN.innerHTML = `<Link onClick={this.hideSlider} to="/login">
+      let loginBTN2 = document.getElementById("loginBTN2");
+
+      loginBTN.innerHTML = `<Link onClick=${this.hideSlider} to="/login">
       <li>
       
         ${this.state.name}
@@ -43,6 +48,11 @@ class Facebook extends Component {
     />
     </Link>`;
 
+      loginBTN2.innerHTML = ` <a onClick={this.hideSlider} to={this.state.Link}>
+      ${this.state.name}
+      <img id="loginImge2" src=${this.state.picture} alt="" />
+    </a>`;
+
       localStorage.setItem("userName", this.state.name);
       localStorage.setItem("userPhoto", this.state.picture);
     } else {
@@ -54,6 +64,7 @@ class Facebook extends Component {
           onClick={this.componentClicked}
           callback={this.responseFacebook}
           isMobile={false}
+          onFailure={this.loginFailed}
         />
       );
     }
