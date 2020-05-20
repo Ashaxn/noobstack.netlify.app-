@@ -12,6 +12,8 @@ import IButton from "./components/NavFooter/IButton";
 import JsMaterialContainer from "./components/Courses/VanillaJS/JsMaterialContainer";
 import Login from "./components/Login/Login";
 import FacebookLogin from "./components/Login/FacebookLogin";
+import GithubLogin from "./components/Login/GithubLogin";
+
 // eslint-disable-next-line
 import {
   BrowserRouter as Router,
@@ -41,6 +43,7 @@ function App() {
         <Route path="/javascript" component={JsMaterialContainer} />
         <Route path="/login" component={Login} />
         <Route path="/facebook" exact component={FacebookLogin} />
+        <Route path="/github" exact component={GithubLogin} />
         <Footer />
       </div>
     </Router>

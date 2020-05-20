@@ -76,14 +76,16 @@ class Login extends Component {
                 </button>
               </div>
               <br />
-              <div>
-                <button className="btn loginBtns grey darken-3">
-                  {" "}
-                  <i className="fab fa-github fa-3x large"></i>
-                  {"   "}
-                  Login wih GitHub
-                </button>
-              </div>
+              <Link onClick={this.hideSlider} to="/github">
+                <div>
+                  <button className="btn loginBtns grey darken-3">
+                    {" "}
+                    <i className="fab fa-github fa-3x large"></i>
+                    {"   "}
+                    Login wih GitHub
+                  </button>
+                </div>
+              </Link>
               <br />
               <div>
                 <button
