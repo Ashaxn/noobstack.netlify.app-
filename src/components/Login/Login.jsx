@@ -33,6 +33,10 @@ class Login extends Component {
     }, 1000);
   };
 
+  showError = () => {
+    alert("Instagram Login API is currently shutted down by Facebook inc.");
+  };
+
   render() {
     return (
       <div
@@ -82,7 +86,10 @@ class Login extends Component {
               </div>
               <br />
               <div>
-                <button className="btn loginBtns pink darken-2">
+                <button
+                  onClick={this.showError}
+                  className="btn loginBtns pink darken-2"
+                >
                   {" "}
                   <i className="fab fa-instagram fa-3x large"></i>
                   {"   "}
