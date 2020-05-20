@@ -12,8 +12,8 @@ class Github extends Component {
     picture: "",
   };
 
-  onSuccess = (response) => console.log(response);
-  onFailure = (response) => console.error(response);
+  onSuccess = (response) => console.log(response.name);
+  onFailure = (response) => console.error(response.name);
 
   render() {
     let gitContent;
