@@ -47,6 +47,7 @@ class Github extends Component {
       gitContent = (
         <GitHubLogin
           clientId="Iv1.11fe935eb08a191a"
+          scope="user:email"
           redirectUri="https://noobstack.netlify.app/"
           onSuccess={this.onSuccess}
           onFailure={this.onFailure}
