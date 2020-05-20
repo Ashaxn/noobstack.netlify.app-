@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 import "materialize-css/dist/css/materialize.min.css";
-import GitHubLogin from "react-github-login";
+import GitHubLogin from "github-login";
 
 class Github extends Component {
   state = {
@@ -12,10 +12,8 @@ class Github extends Component {
     picture: "",
   };
 
-  onSuccess = (response) => {
-    console.log(response);
-  };
-  onFailure = (response) => console.log(response);
+  onSuccess = (response) => console.log(response);
+  onFailure = (response) => console.error(response);
 
   render() {
     let gitContent;
